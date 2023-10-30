@@ -1,0 +1,84 @@
+* {
+
+    margin: 0px;
+  
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  }
+ body {
+    background-color:rgb(197, 246, 255);
+
+    align-items: center;
+    text-align: center;
+    
+
+
+
+
+  }
+  .body-text {
+  
+    display: flex;
+  
+    font-family: "Montserrat", sans-serif;
+  
+    justify-content: center;
+  
+    margin-top: 250px;
+  
+  }
+  
+  /* Reset default margin and padding for the list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color:lightgrey; /* Background color of the navigation bar */
+  text-align: center; /* Center-align the items horizontally */
+}
+
+/* Style the list items (menu items) */
+li {
+  display: inline-block; /* Display items horizontally */
+  margin: 0 10px; /* Add spacing between menu items */
+  border: 1px solid #fff; /* Add a border to each menu item */
+  padding: 5px 10px; /* Add padding to menu items */
+}
+
+/* Style the links (anchor tags) within the list items */
+li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Text color for links */
+}
+
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: lightseagreen;
+    cursor: pointer;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: grey;
+  
+    align-items:normal;
+  }
+
+
+  .footer{
+    background-color: lightseagreen;
+    padding: 10px;
+    text-align: center;
+    
+
+
+
+  }
